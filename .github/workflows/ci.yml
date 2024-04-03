@@ -31,4 +31,4 @@ jobs:
     
     - name: Push image
       run: |
-        docker push catalendas/nlw.service.passin:${{ steps.generate_sha.outputs.sha }}
+        docker push marcosalexandrecardoso/nlw.service.passin:${{ steps.generate_sha.outputs.sha }}
